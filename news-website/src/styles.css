@@ -1,0 +1,60 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .search-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .search-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .search-container button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .news-container {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .article {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+  }
+  
+  .article-image {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .article-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .article-title {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .article-description {
+    margin: 0;
+    color: #666;
+  }
+  
